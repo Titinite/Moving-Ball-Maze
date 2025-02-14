@@ -1,3 +1,4 @@
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class PlayerCollision : MonoBehaviour
@@ -13,11 +14,10 @@ public class PlayerCollision : MonoBehaviour
     {
         if (other.CompareTag("Finish"))
         {
-            Debug.Log("Finish !");
+            SceneManager.LoadScene("Win menu");
         }
         else if (other.CompareTag("Dammage"))
         {
-            Debug.Log("Perdu !");
             gameManager.SpawnPlayer();
             Destroy(gameObject);
         }
