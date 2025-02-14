@@ -12,6 +12,14 @@ public class GameManager : MonoBehaviour
         SpawnPlayer();
     }
 
+    void Update()
+    {
+        if (currentPlayer.transform.position.y < -10)
+        {
+            SpawnPlayer();
+        }
+    }
+
     public void SpawnPlayer()
     {
         if (currentPlayer != null)
