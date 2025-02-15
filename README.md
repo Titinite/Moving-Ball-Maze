@@ -14,6 +14,7 @@ Mon projet Moving Ball Maze est un petit jeu vidéo dont le but est d'amener la 
 
 - **Lancer une partie** : Bouton sur la page d'accueil pour lancer une partie du jeu
 - **Faire pivoter la plateforme** : Dans le jeu, vous ne pouvez que faire tourner le labyrinthe pour déplacer la balle avec les touches ZQSD.
+- **Chronomètre** : Système de timer pour challenger les joueurs et finir le plus rapidement possible.
 - **Relancer une partie** : Possibilité de relancer une partie en cas de victoire (ou de revenir au menu principal).
   
 
