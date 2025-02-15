@@ -14,6 +14,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (other.CompareTag("Finish"))
         {
+            Object.FindFirstObjectByType<Chronometer>().StopTimer();
             SceneManager.LoadScene("Win menu");
         }
         else if (other.CompareTag("Dammage"))
